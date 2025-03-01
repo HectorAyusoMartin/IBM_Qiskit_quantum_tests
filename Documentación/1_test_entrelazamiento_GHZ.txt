@@ -1,0 +1,50 @@
+Simulación clásica de un circuito de 100 qubits vs ejecución en una QPU real:
+
+
+Complejidad de simular 100 qubits en un ordenador clásico 
+
+Simular un circuito cuántico de 100 qubits en hardware clásico es prácticamente inabordable. 
+Cada qubit duplica el espacio de estados, por lo que para 100 qubits se deben considerar 2^100 estados distintos, es decir, alrededor de 1.27 x 10^30 amplitudes complejas. 
+Esto implica que se necesitaría una cantidad de memoria inmensa, mucho mayor a la disponible en cualquier computadora actual. 
+Además, el tiempo de cómputo crece de manera exponencial. Incluso si se dispusiera de una supercomputadora capaz de realizar mil millones de operaciones por segundo, procesar todas estas operaciones llevaría miles de años.
+
+Métodos clásicos avanzados.
+Debido a lo anterior, se han desarrollado métodos avanzados para simular circuitos cuánticos en computadoras clásicas, como los métodos tensoriales y las aproximaciones Monte Carlo. 
+Estos enfoques tratan de aprovechar estructuras particulares del circuito para reducir el coste computacional, pero en simulaciones exactas solo se han logrado circuitos de hasta 50 o 60 qubits. 
+Simular de forma exacta un circuito de 100 qubits excede los recursos disponibles en cualquier supercomputadora actual.
+
+Ejecución en QPUs reales (IBM Brisbane).
+En contraste, una QPU real, como la IBM Brisbane, puede manipular 100 qubits de forma directa. 
+En estos dispositivos, las operaciones cuánticas básicas se realizan en escalas de tiempo de nanosegundos o microsegundos, lo que permite ejecutar un circuito de 100 qubits en fracciones de segundo. 
+Por ejemplo, según el registro obtenido, la QPU IBM Brisbane ejecutó un trabajo de 100 qubits en tan solo 15 segundos.
+
+Diferencia en el procesamiento.
+La gran diferencia se debe a que un procesador clásico debe calcular y actualizar cada una de las 2^100 amplitudes individualmente, 
+mientras que una QPU realiza operaciones que, en esencia, actualizan el estado cuántico completo de forma simultánea. 
+Esto permite que, a pesar de la alta complejidad del sistema, una QPU pueda ejecutar el experimento en tiempos muy cortos.
+
+Conclusión:
+La simulación clásica de circuitos cuánticos escala de manera exponencial con el número de qubits, lo que hace inabordable simular 100 qubits en un procesador clásico. 
+En cambio, las QPUs modernas pueden ejecutar estos circuitos en segundos, aprovechando el procesamiento cuántico intrínseco a la mecánica cuántica. 
+Este contraste resalta la ventaja fundamental del procesamiento cuántico para abordar problemas que serían inalcanzables con la computación clásica.
+
+
+Referencias:
+
+Arute et al. (2019). Quantum supremacy using a programmable superconducting processor. Nature 574, 505–510.
+    Este trabajo de Google describe cómo un circuito de 53 qubits fue ejecutado en el chip Sycamore, demostrando la diferencia de tiempos entre simulaciones clásicas y ejecuciones en hardware cuántico.
+    
+Pednault et al. (2019). IBM Research Blog: On “quantum supremacy”.
+    En este artículo se reevalúa la simulación clásica de circuitos cuánticos, mostrando que técnicas avanzadas pueden reducir significativamente el tiempo de simulación, pero aun así el salto de 50 a 100 qubits es inmenso.
+
+Chow et al. (2021). IBM Blog: 127-qubit quantum processor Eagle.
+    Proporciona detalles sobre el escalamiento de qubits en hardware de IBM y explica la magnitud de la simulación clásica en comparación con la ejecución real.
+
+Young et al. (2023). Simulating Quantum Computations on Classical Machines: A Survey. arXiv:2311.16505.
+    Un resumen sobre los límites y técnicas de simulación clásica de circuitos cuánticos, destacando la dificultad de simular circuitos genéricos de 100 qubits.
+
+Plain Concepts (2021). Introducción a la Computación Cuántica.
+    Explicación divulgativa sobre la complejidad de 100 qubits y la cantidad de memoria que se necesitaría para simularlos en una computadora clásica.
+    
+Datos de hardware IBM Quantum (aprox. 2018): tiempos típicos de puertas de 1 y 2 qubits y tiempos de coherencia.
+    Información técnica sobre las escalas de tiempo en las QPUs, que permite entender la rapidez de ejecución en comparación con simulaciones clásicas.
