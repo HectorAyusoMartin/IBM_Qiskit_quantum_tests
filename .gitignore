@@ -2,3 +2,4 @@ pruebas.py
 .ipynb_checkpoints
 links.txt
 config.ini
+lanzamiento_a_ibm_qpu_funcional.py
