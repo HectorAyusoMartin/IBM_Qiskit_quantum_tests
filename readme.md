@@ -1,3 +1,5 @@
+![Intro](assets/intro.jpeg)
+
 Pruebas de programación Cuántica. Qiskit. IBM.
 Héctor Ayuso Martín.
 
@@ -13,16 +15,3 @@ pares de qubits entrelazados, y se analizan sus correlaciones tras la medición.
 
 En el segundo Notebook, llamado colapso_qubit_en_superposicion_cuantica, realizamos dos experimentos: Uno llevado a cabo en una QPU real, y otro en un backend simulador
 utilizando qiskit Aer. El experimento trata de observar el colapso de un qubit en superposición |+) a sus dos estados básicos |0) y |1).
-
-
-
-
-
-
-
-
-
-
-
-
-
