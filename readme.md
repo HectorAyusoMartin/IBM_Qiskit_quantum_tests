@@ -20,6 +20,7 @@ El en tercer Jupyter Notebook, con nombre 1.3-generador_cuantico_numeros_aleator
 de 8 bits. Más tarde utilizamos el número como valor de Seed, para generar una pseudo-aleatoriedad local robusta en nuestra programación clásica. Esto es verdaderamente
 util en ciberseguridad, simulaciones y comunicación segura (criptografía).
 
+En el cuarto, se demuestra bajo hardware cuántico real, la teleportación en un estado de Bell, utilizando un par EPR y un qbit receptor. Einstein seguiria sin creerselo.
 
 
 ![Intro](assets/flag.png)
