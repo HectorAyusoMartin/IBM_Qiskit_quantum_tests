@@ -4,3 +4,4 @@ links.txt
 config.ini
 lanzamiento_a_ibm_qpu_funcional.py
 ejemplo_simulacion_con_aer.py
+QRNG.py

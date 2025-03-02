@@ -4,4 +4,6 @@ qiskit[visualization]
 qiskit-ibm-runtime
 fitz
 pandas
-
+streamlit
+numpy
+scipy

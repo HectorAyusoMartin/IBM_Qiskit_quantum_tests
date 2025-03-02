@@ -16,4 +16,10 @@ pares de qubits entrelazados, y se analizan sus correlaciones tras la medición.
 En el segundo Notebook, llamado colapso_qubit_en_superposicion_cuantica, realizamos dos experimentos: Uno llevado a cabo en una QPU real, y otro en un backend simulador
 utilizando qiskit Aer. El experimento trata de observar el colapso de un qubit en superposición |+) a sus dos estados básicos |0) y |1).
 
+El en tercer Jupyter Notebook, con nombre 1.3-generador_cuantico_numeros_aleatorios, generamos un número aleatorio a traves de una QPU real, con forma de un bitString
+de 8 bits. Más tarde utilizamos el número como valor de Seed, para generar una pseudo-aleatoriedad local robusta en nuestra programación clásica. Esto es verdaderamente
+util en ciberseguridad, simulaciones y comunicación segura (criptografía).
+
+
+
 ![Intro](assets/flag.png)
