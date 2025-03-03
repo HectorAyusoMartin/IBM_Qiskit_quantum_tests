@@ -22,5 +22,6 @@ util en ciberseguridad, simulaciones y comunicación segura (criptografía).
 
 En el cuarto, se demuestra bajo hardware cuántico real, la teleportación en un estado de Bell, utilizando un par EPR y un qbit receptor. Einstein seguiria sin creerselo.
 
+En el número 5, se crea una transmisión cuántica segura de información entre dos personas aplicando el concepto de código superdenso.
 
 ![Intro](assets/flag.png)
